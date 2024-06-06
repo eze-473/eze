@@ -1,0 +1,10 @@
+.imagencarrucel{
+    height: 350px;
+    object-fit: cover;
+}
+@MEDIA all and (min-width:992px){
+    .imagencarrucel{
+        height: 500px;
+        object-position: 50% 30%;
+    }
+}
